@@ -3,3 +3,4 @@
 .lsp/
 .nrepl-port
 .shadow-cljs/
+public/js/
