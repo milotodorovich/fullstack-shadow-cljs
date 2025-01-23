@@ -6,7 +6,9 @@
 
 (defonce jetty-ref (atom nil))
 
-(defn start []
+(defn start
+  {:shadow/requires-server true}
+  []
   (shadow/watch :frontend)
 
   (reset! jetty-ref
@@ -28,5 +30,9 @@
 (comment
   (go)
   (+ 1 2)
+
+  (shadow.cljs.devtools.api/repl :frontend)
+  (js/alert "Yo you!")
+  :cljs/quit
   ;;
   )

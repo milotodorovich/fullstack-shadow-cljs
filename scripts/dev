@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+clj -M -m shadow.cljs.devtools.cli run repl/start
+
