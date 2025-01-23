@@ -1,0 +1,5 @@
+{:deps true
+ :builds {}
+
+ ;; write ./.nrepl-port file instead of ./.shadow-cljs/nrepl.port
+ :nrepl {:write-port-file true}}
