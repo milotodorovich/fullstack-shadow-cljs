@@ -1,10 +1,10 @@
-(ns acme.frontend.app
+(ns acme.app
   (:require
    [reagent.core :as r]
    [reagent.dom.client :as rdom]))
 
 (defn app []
-  [:h1 "Hello, Ted!"])
+  [:h1 "Hello, World!"])
 
 (defn app-element []
   (js/document.getElementById "root"))
