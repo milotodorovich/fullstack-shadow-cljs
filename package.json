@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-shadow-cljs",
+  "version": "1.0.0",
+  "description": "Example app following https://code.thheller.com/blog/shadow-cljs/2024/10/18/fullstack-cljs-workflow-with-shadow-cljs.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milotodorovich/fullstack-shadow-cljs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milotodorovich/fullstack-shadow-cljs/issues"
+  },
+  "homepage": "https://github.com/milotodorovich/fullstack-shadow-cljs#readme",
+  "dependencies": {
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.28.20"
+  }
+}
